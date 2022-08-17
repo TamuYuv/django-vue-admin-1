@@ -53,10 +53,11 @@ INSTALLED_APPS = [
     "django_comment_migrate",
     "rest_framework",
     "django_filters",
-    "corsheaders",  # 注册跨域app
+    "corsheaders",  # Register a cross-domain app
     "dvadmin.system",
     "drf_yasg",
     "captcha",
+    "crud_demo"
 ]
 
 MIDDLEWARE = [
@@ -129,9 +130,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = "zh-hans"
+LANGUAGE_CODE = "en-US"
 
-TIME_ZONE = "Asia/Shanghai"
+TIME_ZONE = "Asia/Kathmandu"
 
 USE_I18N = True
 
